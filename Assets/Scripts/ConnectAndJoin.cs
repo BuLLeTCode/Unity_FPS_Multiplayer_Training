@@ -44,7 +44,7 @@ public class ConnectAndJoin : Photon.MonoBehaviour
         PhotonNetwork.JoinRandomRoom();
     }
 
-    public virtual void OnJoinedLobby()
+    public virtual void OnJoinedLobby()//Lobby, for people!
     {
         Debug.Log("OnJoinedLobby(). This client is connected and does get a room-list, which gets stored as PhotonNetwork.GetRoomList(). This script now calls: PhotonNetwork.JoinRandomRoom();");
         PhotonNetwork.JoinRandomRoom();
